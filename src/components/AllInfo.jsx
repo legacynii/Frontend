@@ -33,7 +33,7 @@ const AllInfo = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/members/${id}`);
+        const response = await axios.get(`https://ch-database-backend-4m31.onrender.com/members/${id}`);
         const result = response.data;
 
         setData(result);
@@ -56,9 +56,9 @@ const AllInfo = () => {
 
   const handleSubmit = async () => {
     try {
-      await axios.put(`http://localhost:5000/members/${id}`, data);
+      await axios.put(`https://ch-database-backend-4m31.onrender.com/members/${id}`, data);
       setIsEditing(false);
-      alert("Succesfully edited!");
+      alert("Successfully edited!");
     } catch (err) {
       console.error(err.message);
     }
@@ -72,7 +72,7 @@ const AllInfo = () => {
       try {
         await axios.delete(`http://localhost:5000/members/${id}`);
         navigate("/new");
-        alert("Succesfully deleted!");
+        alert("Successfully deleted!");
       } catch (error) {
         console.error('Error deleting member:', error);
       }
