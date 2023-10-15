@@ -33,7 +33,7 @@ const AllInfo = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`https://ch-database-backend-4m31.onrender.com/members/${id}`);
+        const response = await axios.get(`https://ch-backend-o6wb.onrender.com/members/${id}`);
         const result = response.data;
 
         setData(result);
@@ -56,7 +56,7 @@ const AllInfo = () => {
 
   const handleSubmit = async () => {
     try {
-      await axios.put(`https://ch-database-backend-4m31.onrender.com/members/${id}`, data);
+      await axios.put(`https://ch-backend-o6wb.onrender.com/members/${id}`, data);
       setIsEditing(false);
       alert("Successfully edited!");
     } catch (err) {
