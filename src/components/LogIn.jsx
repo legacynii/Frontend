@@ -60,7 +60,7 @@ const Home = () => {
         try {
           // Make a POST request to the login endpoint
           const body = { staff_id };
-          const response = await axios.post('https://ch-database-backend-4m31.onrender.com/login', body);
+          const response = await axios.post('https://ch-backend-o6wb.onrender.com/login', body);
       
           // Store the JWT token in localstorage
           const accessToken = response.data.accessToken;
@@ -70,7 +70,7 @@ const Home = () => {
           const authToken = localStorage.getItem('authToken');
       
           // Send a GET request to check authentication
-          const authenticationResponse = await axios.get('https://ch-database-backend-4m31.onrender.com/check-auth', {
+          const authenticationResponse = await axios.get('https://ch-backend-o6wb.onrender.com/check-auth', {
             headers: {
               Authorization: `Bearer ${authToken}`,
             },
