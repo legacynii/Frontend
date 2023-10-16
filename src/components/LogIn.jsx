@@ -68,7 +68,9 @@ const Home = () => {
       
           // Retrieve the JWT token from localstorage
           const authToken = localStorage.getItem('authToken');
-      
+
+            console.log('Sending GET request with token:', authToken);
+
           // Send a GET request to check authentication
           const authenticationResponse = await axios.get('https://ch-backend-o6wb.onrender.com/check-auth', {
             headers: {
