@@ -19,7 +19,7 @@ function Copyright(props) {
       </Link>{' '}
       {new Date().getFullYear()}
             {'.'}
-            {} All rights reserved.
+            {} All rights reserved!
     </Typography>
     );
 }
@@ -102,7 +102,7 @@ const Home = () => {
         <Grid >
             <Paper elevation={10} style={paperStyle} >
                 <Grid align="center">
-                    <Typography variant='h4'>Welcome To The Church Database WebApp</Typography><br></br>
+                    <Typography variant='h4'>Welcome To The Church database WebApp</Typography><br></br>
                         <Avatar style={avatarStyle} >
                             <img src={presby} alt="Profile" style={imageStyle} />
                         </Avatar>
