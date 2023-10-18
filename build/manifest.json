@@ -1,13 +1,28 @@
 {
   "short_name": "Ch Db",
   "name": "Church Database WebApp",
-  "icons": 
+  "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon-64x64.png",  // Replace with your icon file path for 64x64 size
+      "sizes": "64x64",
+      "type": "image/png"
     },
-    
+    {
+      "src": "favicon-32x32.png",  // Replace with your icon file path for 32x32 size
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-24x24.png",  // Replace with your icon file path for 24x24 size
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-16x16.png",  // Replace with your icon file path for 16x16 size
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
   
   "start_url": ".",
   "display": "standalone",
