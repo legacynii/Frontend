@@ -3,22 +3,22 @@
   "name": "Church Database WebApp",
   "icons": [
     {
-      "src": "favicon-64x64.png",  // Replace with your icon file path for 64x64 size
+      "src": "favicon-64x64.png",  
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "favicon-32x32.png",  // Replace with your icon file path for 32x32 size
+      "src": "favicon-32x32.png", 
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "favicon-24x24.png",  // Replace with your icon file path for 24x24 size
+      "src": "favicon-24x24.png",  
       "sizes": "24x24",
       "type": "image/png"
     },
     {
-      "src": "favicon-16x16.png",  // Replace with your icon file path for 16x16 size
+      "src": "favicon-16x16.png",  
       "sizes": "16x16",
       "type": "image/png"
     }
